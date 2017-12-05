@@ -12,7 +12,7 @@ I use Slack daily for work. I just want to have fun while at it. Also, I love co
 
 It's really easy to start using this project. This project is built as production-ready as it can be. Deployment is done via Docker to enable easy deployment.
 
-To easily deploy using Docker simply set the `SLACK_BOT_TOKEN` environment variable with your token run
+To easily deploy using Docker simply set the `SLACK_BOT_TOKEN` environment variable with your token and run
 ```
 ./deploy.sh
 ```
