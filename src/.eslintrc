@@ -1,0 +1,30 @@
+env:
+    node: true
+    es6: true
+    jest: true
+extends:
+    - eslint:recommended
+parser: babel-eslint
+parserOptions:
+    ecmaVersion: 6
+    sourceType: module
+rules:
+    semi: [error, never]
+    indent: [error, 4]
+    eol-last: error
+    no-multi-spaces: error
+    no-multiple-empty-lines: [error, { max: 1, maxEOF: 1, maxBOF: 0 }]
+    no-whitespace-before-property: error
+    no-var: error
+    prefer-const: error
+    comma-dangle: [error, always-multiline]
+    no-unused-vars: [error, { ignoreRestSiblings: true }]
+    no-unneeded-ternary: warn
+    arrow-parens: [error, as-needed]
+    arrow-spacing: error
+    object-curly-spacing: [error, always]
+    no-useless-constructor: error
+    no-extra-bind: warn
+    object-shorthand: error
+    curly: [warn, multi-line]
+    no-console: warn

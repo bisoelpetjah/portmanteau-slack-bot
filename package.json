@@ -1,0 +1,32 @@
+{
+  "name": "portmanteau-slack-bot",
+  "version": "1.0.0",
+  "description": "Portmanteau slack bot",
+  "main": "index.js",
+  "scripts": {
+    "develop": "nodemon .",
+    "build": "babel --out-dir build src --copy-files",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "cleanup": "rm -rf build & rm -rf coverage & rm -rf *.log"
+  },
+  "author": "Irvan Adhitya",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.14.2",
+    "express": "^4.16.2",
+    "remove-punctuation": "0.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1",
+    "nodemon": "^1.12.1"
+  },
+  "repository": "https://github.com/bisoelpetjah/portmanteau-slack-bot"
+}
